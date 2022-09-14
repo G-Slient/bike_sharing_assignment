@@ -22,12 +22,11 @@ How well those variables describe the bike demands
 You are required to model the demand for shared bikes with the available independent variables. It will be used by the management to understand how exactly the demands vary with different features. They can accordingly manipulate the business strategy to meet the demand levels and meet the customer's expectations. Further, the model will be a good way for management to understand the demand dynamics of a new market.
 
 ## Conclusions
-Significant variables to predict the demand for shared bikes
+Based on final model top three features contributing significantly towards explaining the demand are:
 
-- temp
-- Year (2019)
-- months(January, July, September, November, December)
-- weathersit( Light Snow, Mist + Cloudy)
+- Temperature (0.489)
+- year (0.242)
+- weathersit : Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds (-0.276)
 
 ## Technologies Used
 - numpy - version 1.21.5
